@@ -8,7 +8,7 @@
         "url": "https://github.com/hirulez/lines-count"
     },
     "description": "Display lines count in status bar with following format: Total(Not empty lines + Empty lines + Comments lines])",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.52.0"
     },
