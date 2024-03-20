@@ -23,7 +23,7 @@ To personalize the output format, modify the `"simple-lines-count.format"` optio
 
 **Example Configuration:**
 
-```json
+```
 Lns: {t} ({ne} + {e}e + {c}c)
 ```
 
