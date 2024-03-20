@@ -1,26 +1,44 @@
-# simple-lines-count README
+# Simple Lines Count
 
-Show selected lines count in a status bar with the ability to specify output format.
+## Overview
 
-Default format is:
-Lns: {Total} ({Not empty} + {Empty}e + {Comments}c)
+**Simple Lines Count** enhances your coding experience by displaying a count of selected lines directly in the status bar. This lightweight extension is customizable, allowing you to tailor the output format to meet your needs.
 
-e.g. Lns: 10 (5 + 3e + 2c) 
-5 not empty
-3 empty
-2 comments
+### Default Output Format
+
+By default, the line count is displayed as follows:
+
+> **Lns: {Total} ({Not Empty} + {Empty}e + {Comments}c)**
+
+For example: ***Lns: 10 (5 + 3e + 2c)***
+
+This means:
+- **5** lines with content
+- **3** empty lines
+- **2** lines of comments
+
+### Customizing the Format
+
+To personalize the output format, modify the `"simple-lines-count.format"` option in your `settings.json` file.
+
+**Example Configuration:**
+
+```json
+Lns: {t} ({ne} + {e}e + {c}c)
+```
+
+Where:
+- `{t}`: Total number of selected lines
+- `{ne}`: Number of non-empty lines
+- `{e}`: Number of empty lines
+- `{c}`: Number of comment lines (currently, lines starting with `//` are recognized as comments)
 
 ## Release Notes
 
-### 0.0.1
-
-- Initial release of Simple lines count
-
-### 0.0.2
-
-- Added single comment line support (e.g. //)
-
-### 0.0.3
-
-- Added extension icon
-- Added ability to specify desired format of output
+- **0.0.1**
+  - Initial release of Simple Lines Count.
+- **0.0.2**
+  - Introduced support for single comment lines (e.g., lines starting with `//`).
+- **0.0.3**
+  - Added an extension icon for better visibility.
+  - Enhanced customization with the ability to specify the desired output format.
