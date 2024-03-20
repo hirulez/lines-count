@@ -4,7 +4,7 @@
     "displayName": "Simple Lines Count",
     "icon": "images/icon.png",
     "description": "Display lines count in status bar with following format: Total(Not empty lines + Empty lines + Comments lines])",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.52.0"
     },
