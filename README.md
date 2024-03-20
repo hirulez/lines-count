@@ -42,3 +42,5 @@ Where:
 - **0.0.3**
   - Added an extension icon for better visibility.
   - Enhanced customization with the ability to specify the desired output format.
+- **0.0.4**
+  - Updated README file.
