@@ -3,6 +3,10 @@
     "name": "simple-lines-count",
     "displayName": "Simple Lines Count",
     "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hirulez/lines-count"
+    },
     "description": "Display lines count in status bar with following format: Total(Not empty lines + Empty lines + Comments lines])",
     "version": "0.0.3",
     "engines": {
